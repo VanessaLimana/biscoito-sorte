@@ -22,7 +22,7 @@ class App extends Component{
   render(){
     return(
       <div className="container" >
-        <img src={require('./assets/biscoito.png')} className="img" />
+        <img src='images/biscoito.png' className="img" />
         <Botao nome = "Abrir biscoito" acaoBtn={this.quebraBiscoito} />
         <h3 className="textoFrase">{this.state.textoFrase} </h3>
       </div>
